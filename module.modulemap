@@ -1,0 +1,5 @@
+module CPostgreSQL [system] {
+    header "/usr/local/include/libpq-fe.h"
+    link "postgresql"
+    export *
+}
