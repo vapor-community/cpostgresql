@@ -1,5 +1,11 @@
-module CPostgreSQL [system] {
+module CPostgreSQLMac [system] {
     header "/usr/local/include/libpq-fe.h"
-    link "postgresql"
+    link "pq"
+    export *
+}
+
+module CPostgreSQLLinux [system] {
+    header "/usr/include/postgresql/libpq-fe.h"
+    link "pq"
     export *
 }
