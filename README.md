@@ -1,7 +1,7 @@
 # Qutheory - CPostgreSQL
 
 ## Install PostgreSQL via Brew (OS X) 
-*If you don't have homebrew visit the homebrew site http://brew.sh to install it.
+* If you don't have homebrew visit the homebrew site http://brew.sh to install it.
 
 ```
 brew doctor
