@@ -27,12 +27,3 @@ apt-get upgrade
 apt-get install postgresql postgresql-contrib
 ```
 
-
-## Start PostgreSQL
-
-Start the PostgreSQL server in the foreground. 
-Brew initializes the database during installation.
-
-```
-postgres -D /usr/local/var/postgres
-```
