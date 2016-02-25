@@ -14,7 +14,18 @@ brew install postgres
 ```
 
 ## Install PostgreSQL via APT-GET (Linux)
-* Coming Soon
+* Update your system:
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+* To install PostgreSQL ...
+
+```
+sudo apt-get install postgresql postgresql-contrib
+```
 
 
 ## Start PostgreSQL
