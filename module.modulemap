@@ -1,11 +1,6 @@
-module CPostgreSQLMac [system] {
-    header "/usr/local/include/libpq-fe.h"
+module CPostgreSQL [system] {
+    header "shim.h"
     link "pq"
     export *
 }
 
-module CPostgreSQLLinux [system] {
-    header "/usr/include/postgresql/libpq-fe.h"
-    link "pq"
-    export *
-}
