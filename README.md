@@ -1,29 +1,22 @@
 # CPostgreSQL
 
-## Install PostgreSQL via Brew (OS X) 
-* If you don't have homebrew visit the homebrew site http://brew.sh to install it.
+## Install PostgreSQL via Homebrew (macOS) 
+Visit the https://brew.sh to install Homebrew if it isn't already installed.
 
 ```
 brew doctor
 brew update
-```
-* Once everything is ok with the doctor and homebrew is update. You can then 
-
-```
-brew install postgres
+brew install postgresql
 ```
 
-## Install PostgreSQL via APT-GET (Linux)
-* Update your system (you may need ```sudo```):
+## Install PostgreSQL with Postgres.app (macOS) 
+Download app from http://postgresapp.com
+
+## Install PostgreSQL via apt-get (Linux)
 
 ```
 apt-get update
 apt-get upgrade
-```
-
-* To install PostgreSQL ...
-
-```
 apt-get install postgresql postgresql-contrib
 ```
 
